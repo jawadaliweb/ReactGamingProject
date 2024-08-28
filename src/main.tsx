@@ -1,21 +1,12 @@
-import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import { ChakraProvider } from "@chakra-ui/react";
-import { IconButton } from "@chakra-ui/react";
-import { PhoneIcon } from "@chakra-ui/icons"; // Import the PhoneIcon component
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import {ChakraProvider} from '@chakra-ui/react'
+import App from './App.tsx'
 
-import App from "./App.tsx";
-
-createRoot(document.getElementById("root")!).render(
+createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <ChakraProvider>
       <App />
-      <IconButton
-        colorScheme="teal"
-        aria-label="Call Segun"
-        size="lg"
-        icon={<PhoneIcon />}
-      />
     </ChakraProvider>
-  </StrictMode>
-);
+  </StrictMode>,
+)
