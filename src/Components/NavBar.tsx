@@ -11,7 +11,7 @@ export const NavBar = () => {
       alignItems="center"
     >
       <Image src={logo} boxSize={"60px"} />
-      <Input placeholder="Search..." bg="white" htmlSize={10} width="auto" />
+      <Input placeholder="Search..." htmlSize={10} width="auto" />
     </HStack>
   );
 };

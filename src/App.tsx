@@ -18,7 +18,7 @@ function App() {
         `
       }
      }>
-    <GridItem bg="gray.700" area="nav">
+    <GridItem area="nav">
       <NavBar />
     </GridItem>
     <GridItem bg="coral" area="main">main</GridItem>
