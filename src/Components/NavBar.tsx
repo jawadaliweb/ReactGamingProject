@@ -4,7 +4,12 @@ import { Input } from "@chakra-ui/react";
 
 export const NavBar = () => {
   return (
-    <HStack padding={"10px"}>
+    <HStack
+      px={["10px", "10"]}
+      display={"flex"}
+      justifyContent="space-between"
+      alignItems="center"
+    >
       <Image src={logo} boxSize={"60px"} />
       <Input placeholder="Search..." bg="white" htmlSize={10} width="auto" />
     </HStack>
