@@ -10,9 +10,10 @@ export const NavBar = () => {
       display={"flex"}
       justifyContent="space-between"
       alignItems="center"
+      position={"sticky"}
     >
       <Image src={logo} boxSize={"60px"} />
-      <Input placeholder="Search..." htmlSize={10} width="auto" />
+      <Input placeholder="Search..." htmlSize={40} width="auto" />
       <ColorModeSwitch />
     </HStack>
   );
